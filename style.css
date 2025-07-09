@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.note_block {
+    position: relative;
+    width: 90%;
+}
+
+.note_block-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    box-sizing: border-box;
+    background: #282828;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note_block-top-title, .note_block-top-time {
+    font-weight: 500;
+    color: #EBEBF5;
+    margin-right: auto;
+}
+
+.note_block-top-title {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.note_block-top-title img {
+    margin-right: 10px;
+}
+
+.notearea {
+    flex: 1;
+    font-size: 14px;
+    padding: 15px;
+    line-height: 1.6;
+    border-radius: 10px;
+    outline: 2px solid #3D3D3D;
+    border: unset;
+    background: #1E1E1E;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 50px;
+    color: #fff;
+    resize: none;
+}
+
+.notearea:focus-visible {
+    outline: 2px solid #585858;
+}
