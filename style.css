@@ -69,5 +69,5 @@ body {
 }
 
 .notearea:focus-visible {
-    outline: 2px solid #525265;
+    outline: 2px solid #0f0f15;
 }
