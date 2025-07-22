@@ -11,7 +11,7 @@ body {
     padding: 20px;
     height: 100vh;
     box-sizing: border-box;
-    background: #282828;
+    background: #303037;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@ body {
     right: 0;
     height: 35px;
     box-sizing: border-box;
-    background: #282828;
+    background: #36363d;
     border-radius: 10px 10px 0 0;
     display: flex;
     justify-content: center;
@@ -58,9 +58,9 @@ body {
     padding: 15px;
     line-height: 1.6;
     border-radius: 10px;
-    outline: 2px solid #3D3D3D;
+    outline: 2px solid #1e1e23;
     border: unset;
-    background: #1E1E1E;
+    background: #474750;
     width: 100%;
     box-sizing: border-box;
     padding-top: 50px;
@@ -69,5 +69,5 @@ body {
 }
 
 .notearea:focus-visible {
-    outline: 2px solid #585858;
+    outline: 2px solid #35353e;
 }
