@@ -25,7 +25,7 @@ setInterval(() => {
     const minuts = addZero(date.getMinutes());
     const seconds = addZero(date.getSeconds())
 
-    const dateTime = day + ' ' + dayMonth + ', ' + hour + ':' + minuts + ':' + seconds;
+    const dateTime = day + ' ' + dayMonth + ', ' + hour + ':' + minuts;
     
     document.querySelector('.note_block-top-time').innerHTML = dateTime;
 }, 1000);

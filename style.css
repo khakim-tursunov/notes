@@ -9,17 +9,17 @@
 body {
     margin: 0;
     padding: 20px;
-    height: 100vh;
     box-sizing: border-box;
     background: #303037;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .note_block {
     position: relative;
-    width: 90%;
+    width: 80%;
 }
 
 .note_block-top {
@@ -36,10 +36,14 @@ body {
     align-items: center;
 }
 
-.note_block-top-title, .note_block-top-time {
+.note_block-top-time {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     font-weight: 500;
     color: #EBEBF5;
-    margin-right: auto;
+    width: 80%;
+    height: 40px;
 }
 
 .note_block-top-title {
