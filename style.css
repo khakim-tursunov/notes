@@ -21,10 +21,11 @@ body {
     margin: 0;
     font-size: 25px;
     font-weight: 600;
-    color: #EBEBF5;
+    color: #666672;
     text-align: left;
     border-bottom: 2px solid #3f3f49;
-    padding-bottom: 10px;
+    padding-bottom: 13px;
+    display: inline-block;
 }
 
 .note_top {
@@ -51,11 +52,12 @@ body {
 }
 
 .note_block-top-time {
-    font-size: 35px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-weight: 500;
     color: #EBEBF5;
+    height: 29px;
 }
 
 .note_block-top-title {
@@ -87,6 +89,7 @@ body {
 .notearea:focus-visible {
     outline: 2px solid #0f0f15;
 }
+
 
 
 
