@@ -10,11 +10,28 @@ body {
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
-    background: #303037;
+    background: #1e1e23;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.app-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #EBEBF5;
+    width: 80%;
+    text-align: left;
+    border-bottom: 2px solid #3f3f49;
+    padding-bottom: 10px;
+}
+
+.note_top {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .note_block {
@@ -29,7 +46,7 @@ body {
     right: 0;
     height: 35px;
     box-sizing: border-box;
-    background: #36363d;
+    background: #0f0f15;
     border-radius: 10px 10px 0 0;
     display: flex;
     justify-content: center;
@@ -42,8 +59,6 @@ body {
     margin-bottom: 30px;
     font-weight: 500;
     color: #EBEBF5;
-    width: 80%;
-    height: 40px;
 }
 
 .note_block-top-title {
@@ -62,9 +77,9 @@ body {
     padding: 15px;
     line-height: 1.6;
     border-radius: 10px;
-    outline: 2px solid #1e1e23;
+    outline: 2px solid #0f0f15;
     border: unset;
-    background: #474750;
+    background: #27272d;
     width: 100%;
     box-sizing: border-box;
     padding-top: 50px;
@@ -75,3 +90,4 @@ body {
 .notearea:focus-visible {
     outline: 2px solid #0f0f15;
 }
+
