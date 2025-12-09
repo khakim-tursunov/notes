@@ -11,24 +11,24 @@ var get_note = localStorage.getItem('note');
 note_area.value = get_note;
 
 //-------------------- Date Time -----------------------//
-var weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+// var weekday = ["Воскресение","Понедельник","Вторник","Среда","Четверг","Пятница","Суббота"];
 
-const addZero = (i) => {
-    if (i < 10) {i = "0" + i}
-    return i;
-};
-setInterval(() => {
-    const date = new Date();
-    const day = weekday[date.getDay()];
-    const dayMonth = date.getDate();
-    const hour = addZero(date.getHours());
-    const minuts = addZero(date.getMinutes());
-    const seconds = addZero(date.getSeconds())
+// const addZero = (i) => {
+//     if (i < 10) {i = "0" + i}
+//     return i;
+// };
+// setInterval(() => {
+//     const date = new Date();
+//     const day = weekday[date.getDay()];
+//     const dayMonth = date.getDate();
+//     const hour = addZero(date.getHours());
+//     const minuts = addZero(date.getMinutes());
+//     const seconds = addZero(date.getSeconds())
 
-    const dateTime = day + ' ' + dayMonth + ', ' + hour + ':' + minuts;
+//     const dateTime = day + ' ' + dayMonth + ', ' + hour + ':' + minuts;
     
-    document.querySelector('.note_block-top-time').innerHTML = dateTime;
-}, 1000);
+//     document.querySelector('.note_block-top-time').innerHTML = dateTime;
+// }, 1000);
 
 
 
