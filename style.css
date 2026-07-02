@@ -6,43 +6,69 @@
     font-style: normal;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     margin: 0;
-    padding: 20px;
+    padding: 30px;
     box-sizing: border-box;
     background: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.app-title {
-    margin: 0;
-    font-size: 25px;
-    font-weight: 600;
-    color: #000;
-    text-align: left;
-    display: inline-block;
-    margin-right: 20px;
+    background: url('bigsur.jpg') 100%/100% no-repeat;
 }
 
 .note_top {
-    width: 80%;
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.note_block {
+.curcle_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curcle {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.curcle._1 {
+    background: #f75048;
+}
+
+.curcle._2 {
+    background: #f3b52b;
+}
+
+.curcle._3 {
+    background: #20c435;
+}
+
+.note {
     position: relative;
     width: 80%;
+    padding: 25px 27px;
+    background: #f0eef4eb;
+    border-radius: 15px;
 }
 
 .note_block-top-time {
+    font-weight: 600;
     font-size: 20px;
-    font-weight: 500;
-    color: #000;
+    color: #767676;
+    text-align: center;
+    text-align: center;
+    width: 100%;
 }
 
 .note_block-top-title {
@@ -58,19 +84,15 @@ body {
     padding: 20px;
     line-height: 1.6;
     border-radius: 10px;
-    outline: 2px solid #d9d9d9;
+    outline: 2px solid #fbf9f9;
     border: unset;
-    background: #f9f8f7;
+    background: #fbf9f9;
     width: 100%;
     box-sizing: border-box;
-    color: #000;
+    color: #515151;
     resize: none;
 }
 
 .notearea:focus-visible {
-    outline: 2px solid #d9d9d9;
+    outline: 2px solid #fbf9f9;
 }
-
-
-
-
